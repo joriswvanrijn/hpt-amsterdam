@@ -20,6 +20,10 @@ _Method by Chris Fotache: https://github.com/cfotache/pytorch_objectdetecttrack_
 python run.py -i ../data/05.mp4
 ```
 
+> Only .mp4 are accepted
+
+Output files will be found in the data folder: `{video}-detections.mp4` and `{video}-data.csv`
+
 ## Installation
 
 ### Requirements
@@ -86,11 +90,13 @@ Download yolov3 weights to /config (https://pjreddie.com/media/files/yolov3.weig
 
 ### Author & references
 
-Prepared by: Joris W. van Rijn (hi@joriswvanrijn.com)
+April 15, 2020
+
+Joris W. van Rijn (hi@joriswvanrijn.com)
 
 #### References:
 
 - YOLOv3 Pytorch implementation by Erik Lindernoren: https://github.com/eriklindernoren/PyTorch-YOLOv3
-- TOLO: https://pjreddie.com/media/files/papers/YOLOv3.pdf
+- YOLO: https://pjreddie.com/media/files/papers/YOLOv3.pdf
 - Sort Implementation by Alex Bewley: https://github.com/abewley/sort
 - SORT: https://arxiv.org/pdf/1602.00763.pdf
