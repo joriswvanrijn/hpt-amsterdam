@@ -2,8 +2,6 @@
 
 Python project to detect and track objects in HPT video's for HPT Amsterdam research.
 
-Prepared by: Joris W. van Rijn (hi@joriswvanrijn.com)
-
 ## Methodology
 
 **1. YOLOv3 Object detection**
@@ -85,3 +83,14 @@ pip install filterpy==1.4.5
 ### Before first run
 
 Download yolov3 weights to /config (https://pjreddie.com/media/files/yolov3.weights)
+
+### Author & references
+
+Prepared by: Joris W. van Rijn (hi@joriswvanrijn.com)
+
+#### References:
+
+- YOLOv3 Pytorch implementation by Erik Lindernoren: https://github.com/eriklindernoren/PyTorch-YOLOv3
+- TOLO: https://pjreddie.com/media/files/papers/YOLOv3.pdf
+- Sort Implementation by Alex Bewley: https://github.com/abewley/sort
+- SORT: https://arxiv.org/pdf/1602.00763.pdf
