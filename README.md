@@ -2,6 +2,8 @@
 
 Python project to detect and track objects in HPT video's for HPT Amsterdam research.
 
+Prepared by: Joris W. van Rijn (hi@joriswvanrijn.com)
+
 ## Methodology
 
 **1. YOLOv3 Object detection**
