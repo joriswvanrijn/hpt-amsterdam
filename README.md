@@ -17,12 +17,20 @@ _Method by Chris Fotache: https://github.com/cfotache/pytorch_objectdetecttrack_
 ## Usage
 
 ```
-python run.py -i ../data/05.mp4
+python run.py -i demo/traffic.mp4
 ```
 
 > Only .mp4 are accepted
 
 Output files will be found in the data folder: `{video}-detections.mp4` and `{video}-data.csv`
+
+In the /demo folder you'll find demo CSV output from the traffic video (data/traffic.mp4). A corresponding output video: https://youtu.be/eG22gWuhfD8
+
+## Pratical limitations
+
+- In streets with cars parked on the shoulders of the road, ID's may be mixed up/recreated due to a close proximity
+- When two detected objects of the same class (e.g. two 'cars') pass behind/in front of eachother, ID's may be switched
+- In this trained model, large cars are sometimes considered 'trucks', somtimes 'cars'
 
 ## Installation
 
