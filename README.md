@@ -4,14 +4,15 @@ Python project to detect and track objects in HPT video's for HPT Amsterdam rese
 
 ## Methodology
 
-- YOLOv3 Object detection
-Pytorch implementation by Erik Lindernoren: https://github.com/eriklindernoren/PyTorch-YOLOv3
-Paper: https://pjreddie.com/media/files/papers/YOLOv3.pdf
-- SORT
-Implementation by Alex Bewley: https://github.com/abewley/sort
-Paper: https://arxiv.org/pdf/1602.00763.pdf
+**1. YOLOv3 Object detection**
+- Pytorch implementation by Erik Lindernoren: https://github.com/eriklindernoren/PyTorch-YOLOv3
+- Paper: https://pjreddie.com/media/files/papers/YOLOv3.pdf
 
-Method by Chris Fotache: https://github.com/cfotache/pytorch_objectdetecttrack
+**2. SORT**
+- Implementation by Alex Bewley: https://github.com/abewley/sort
+- Paper: https://arxiv.org/pdf/1602.00763.pdf
+
+_Method by Chris Fotache: https://github.com/cfotache/pytorch_objectdetecttrack_
 
 ## Usage
 
@@ -21,7 +22,7 @@ python run.py -i ../data/05.mp4
 
 ## Installation
 
-# Requirements
+### Requirements
 
 - Ubuntu 18.04 LTS
 - Python 3.5.6
@@ -66,7 +67,7 @@ apt-get install libnvinfer-dev=5.1.2-1+cuda10.0
 apt-mark hold libnvinfer5 libnvinfer-dev
 ```
 
-# Installing python dependencies
+### Installing python dependencies
 
 ```
 pip install tensorflow-gpu==1.14
@@ -78,3 +79,7 @@ pip install scikit-image
 pip install numba==0.47.0
 pip install filterpy==1.4.5
 ```
+
+### Before first run
+
+Download yolov3 weights to /config (https://pjreddie.com/media/files/yolov3.weights)
